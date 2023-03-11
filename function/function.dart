@@ -11,4 +11,10 @@ void main() {
 // We are calling a function and storing a result in variable c  
 var c = sum(30,20);  
 print("The sum of two numbers is: ${c}");  
+}  void main() {  
+  int mul(int a, int b){  
+        int c = a*b;  
+        return c;  
+}  
+print("The multiplication of two numbers: ${mul(10,20)}");  
 }  
